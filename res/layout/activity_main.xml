@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="horizontal" >
+
+    <!--
+         <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="144dp"
+        android:orientation="vertical" >
+    </LinearLayout
+    -->
+
+    <EditText
+        android:id="@+id/question_a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:ems="10"
+        android:enabled="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="textMultiLine"
+        android:text="@string/question_a" />
+
+    <Button
+        android:id="@+id/button_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/logtext"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/question_a"
+        android:layout_marginLeft="217dp"
+        android:onClick="answerIsKnownButton"
+        android:text="@string/button_a" />
+
+    <EditText
+        android:id="@+id/answer_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/question_a"
+        android:ems="10"
+        android:hint="@string/answer_a_hint"
+        android:text="@string/answer_a" />
+
+    <TextView
+        android:id="@+id/logtext"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="100dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:text="@string/log_file"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <ListView
+        android:id="@+id/list_remember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_a"
+        android:focusable="false"
+        android:focusableInTouchMode="false" >
+
+    </ListView>
+
+</RelativeLayout>

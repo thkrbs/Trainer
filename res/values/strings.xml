@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- genreals -->
+    <string name="app_name">Trainer</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_database">Edit Database</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- question -->
+    <string name="question_a">Frage nummer A - Eine Frage hat mitunter auch eine gewisse länge ... ...</string>
+    <string name="answer_a">Antwort A</string>
+    <string name="answer_a_hint">Hinweis A</string>
+    <string name="button_a">Antwort ok</string>
+    <!-- other -->
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="log_file">Logfile:</string>
+
+</resources>
